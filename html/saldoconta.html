@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Saldo em conta - Câmbio Coin</title>
+        <link rel="stylesheet" href="../CSS/reset.css">
+        <link rel="icon" href="../imagens/logoMiniatura.jpeg">
+        
+        <style>
+            header{
+                background:#0C0B07;
+            }
+
+            nav {
+                position: absolute;
+                top: 110px;
+                right: 10px;
+            }
+
+            nav li{ 
+                display: inline;
+                margin: 0 0 0 15px;
+            }
+
+            nav a{
+                color:#CCCCCC;
+                font-weight: bold;
+                font-size: 22px;
+                text-decoration: none;
+            }
+
+            nav a:hover{
+                color: #C78C19;
+                text-decoration: underline;
+            }
+
+            .slogan{
+                color:#FFFFFF;
+                font-size: 24px;
+                font-family:Arial, Helvetica, sans-serif;
+                text-transform: uppercase;
+                font-weight: bold;
+                position: absolute;
+                top: 110px;
+                left: 520px;
+            }
+
+            .caixa {
+                width: 940px;
+                height: 8px;
+                color:#FFFFFF;
+                font-size: 24px;
+                font-family:Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                text-align: center;
+                margin: 0 auto;
+            }
+
+            .divDeposito{
+                position: absolute;
+                top: 260px;
+                left: 300px;
+                height: 80px;
+                width: 15%;
+                background-color: #F2CB57;
+                color: #000000;
+                border-radius: 10px;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 15px;
+                text-align: left;
+            }
+
+            .moeda{
+                position: absolute;
+                top: 400px;
+                left: 300px;
+                height: 80px;
+                width: 20%;
+                background-color: #F2CB57;
+                color: #000000;
+                border-radius: 10px;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 15px;
+                text-align: left;
+            }
+
+            .rodapé{
+                background-color: #000000;
+                color: #FFFFFF;
+                position: absolute;
+                top: 800px;
+                height: 60px;
+                width: 100%;
+                padding-top: 25px;
+                text-align: center;
+                left: 0px;
+            }
+
+
+
+
+
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <p class="slogan">Sua Casa de Câmbio Digital</p>
+            <img src="../imagens/logoInicial.jpeg">
+            <div class="caixa">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="planos.html">Planos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="saldoconta.html">Perfil</a></li>
+                        <li><a href="Sobre.html">Sobre</a></li>
+                    </ul>
+                </nav>
+            </div>              
+        </header>
+        
+            
+        </main>
+            
+            <div class="divDeposito"></div>
+            <script src="../JS/script_saldo.js"></script> 
+        
+        </main>
+            <script src="../JS/script_lista.js"></script>                         
+        
+            <div class="moeda">
+                <p>Qual moeda você quer comprar??</p>
+                <br>
+                <select name="selecionar-moeda" id="selecionar-moeda">
+                    <option>USD dólar americano</option>
+                    <option>EUR euro</option>
+                    <option>AAVE Aave</option>
+                    <option>ADA Cardano</option>
+                    <option>AR Arweave</option>
+                    <option>AXS Axie Infinity</option>
+                    <option>BCH Bitcoin Cash</option>
+                    <option>BNB BNB</option>
+                    <option>BTC Bitcoin</option>
+                    <option>CAKE PancakeSwap</option>
+                    <option>CHZ Chiliz</option>
+                    <option>DGB DigiByte</option>
+                    <option>DOGE Dogecoin</option>
+                    <option>ENJ Enjin</option>
+                    <option>EOS EOS</option>
+                    <option>ETC Ethereum Classic</option>
+                    <option>ETH Ethereum</option>
+                    <option>GALA Gala</option>
+                    <option>HNT Helium</option>
+                    <option>ICP Internet Computer</option>
+                    <option>IOT IOTA</option>
+                    <option>LINK Chainlink </option>
+                    <option>LTC Litecoin</option>
+                    <option>MANA Decentraland</option>
+                    <option>MATIC Polygon</option>
+                    <option>SAND The Sandbox</option>
+                    <option>SHIB SHIBA INU</option>
+                    <option>SNX Synthetix</option>
+                    <option>SOL Solana</option>
+                    <option>TRX TRON</option>
+                    <option>UNIs Uniswap</option>
+                    <option>USDT Tether</option>
+                    <option>WAVES Waves</option>
+                    <option>WBX WiBX</option>
+                    <option>XLM Stellar</option>
+                    <option>XMR Monero</option>
+                    <option>XRP XRP</option>
+                    <option>XTZ Tezos</option>
+                </select>
+            </div>
+        </main> 
+        
+        <footer>
+            <div class="rodapé">
+                <p class="copyright">&copy;Copyright Câmbio Coin 2022
+                -Todos os direitos reservados</p>
+            </div>
+        </footer>    
+    </body>
+</html>
