@@ -9,7 +9,7 @@
  ## Desenvolvedores
 
 - [@Leonardo Machado de Siqueira](https://github.com/FireWolf014)
-- [@Matheus Tenório da Silva ] (https://github.com/matheust28)
+- [@Matheus Tenório da Silva](https://github.com/matheust28)
 
 
 ## Sobre o Projeto
