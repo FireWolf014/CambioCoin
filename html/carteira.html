@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<HTML lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Monte sua carteira - Câmbio Coin</title>
+        <link rel="stylesheet" href="../CSS/reset.css">
+        <link rel="stylesheet" href="../CSS/stylecarteira.css"> 
+        <link rel="icon" href="../imagens/logoMiniatura.jpeg">
+        <script src="../JS/script-option.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <p class="slogan">Sua Casa de Câmbio Digital</p>
+            <img src="../imagens/logoInicial.jpeg">
+            <div class="caixa">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="planos.html">Planos</a></li>
+                        <li><a href="carteira.html">Carteira</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="Sobre.html">Sobre</a></li>
+                    </ul>
+                </nav> 
+            </div>
+        </header>
+
+        <main>
+            <div class="divContaAbertaSucesso">
+                <h1><p>Conta aberta com sucesso, parabéns!</p><br>Agora você já pode criar a sua carteira. Para iniciar, faça um depósito.</h1>
+                <br>
+                <h2><button type="button" id="depositeagora">Deposite agora!</button></h2>
+            </div>    
+            
+            <div id="divDeposito"></div>
+            
+            <form class="escolher-moeda">
+                <fieldset><legend>Qual moeda você quer comprar?</legend> 
+                    <select id="selectMoedas" name="selectMoedas">
+                        <option></option>
+                        <option value="4.80">USD dólar americano</option>
+                        <option value="5.13">EUR euro</option>
+                        <option value="515.23">AAVE Aave</option>
+                        <option value="2.83">ADA Cardano</option>
+                        <option value="63.09">AR Arweave</option>
+                        <option value="97.94">AXS Axie Infinity</option>
+                        <option value="902.30">BCH Bitcoin Cash</option>
+                        <option value="1471.00">BNB BNB</option>
+                        <option value="145859.00">BTC Bitcoin</option>
+                        <option value="20.98">CAKE PancakeSwap</option>
+                        <option value="0.60">CHZ Chiliz</option>
+                        <option value="0.05">DGB DigiByte</option>
+                        <option value="0.39">DOGE Dogecoin</option>
+                        <option value="3.10">ENJ Enjin</option>
+                        <option value="6.18">EOS EOS</option>
+                        <option value="202.40">ETC Ethereum Classic</option>
+                        <option value="8931.22">ETH Ethereum</option>
+                        <option value="0.36">GALA Gala</option>
+                        <option value="41.68">HNT Helium</option>
+                        <option value="38.80">ICP Internet Computer</option>
+                        <option value="1.61">IOT IOTA</option>
+                        <option value="34.00">LINK Chainlink </option>
+                        <option value="308.70">LTC Litecoin</option>
+                        <option value="4.85">MANA Decentraland</option>
+                        <option value="2.95">MATIC Polygon</option>
+                        <option value="6.44">SAND The Sandbox</option>
+                        <option value="13.57">SNX Synthetix</option>
+                        <option value="197.10">SOL Solana</option>
+                        <option value="0.40">TRX TRON</option>
+                        <option value="25.25">UNIs Uniswap</option>
+                        <option value="4.82">USDT Tether</option>
+                        <option value="48.30">WAVES Waves</option>
+                        <option value="0.02">WBX WiBX</option>
+                        <option value="0.68">XLM Stellar</option>
+                        <option value="974.32">XMR Monero</option>
+                        <option value="1.93">XRP XRP</option>
+                        <option value="9.21">XTZ Tezos</option>
+                    </select>
+                    <div id="saida"></div>
+                </fieldset>
+            </form>
+
+            <form class="escolher-quantidade">
+                <fieldset><legend>Informe a quantidade de moeda</legend>
+                    <input type="text" id="quant">
+
+                    <button type="button" id="botao">
+                    Calcular valores</button>
+                </fieldset>
+            </form>
+            
+            <form>
+                <fieldset>  
+                   <div id="resumo">
+                   </div>
+                   <button id="confirmarcompra">Confimar Compra</button>
+                </fieldset> 
+
+                <fieldset>  
+                    <div id="comprafinalizada"></div>
+                 </fieldset> 
+            
+            </form>
+
+            <button id="refresh">Cancelar</button>
+            
+            
+        </main>
+
+        <footer>
+            <div class="rodapé">
+                <p class="copyright">&copy;Copyright Câmbio Coin 2022
+                -Todos os direitos reservados
+                </p>
+            </div>
+        </footer>
+        
+
+    </body>
+</HTML>

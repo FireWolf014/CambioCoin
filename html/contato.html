@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Contato - Câmbio Coin</title>
         <link rel="stylesheet" href="../CSS/reset.css">
-        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="../CSS/style.css"> 
         <link rel="icon" href="../imagens/logoMiniatura.jpeg">
     </head>
     
@@ -13,31 +13,31 @@
             <p class="slogan">Sua Casa de Câmbio Digital</p>
             <img src="../imagens/logoInicial.jpeg">
             <div class="caixa">
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="planos.html">Planos</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                        <li><a href="saldoconta.html">Perfil</a></li>
-                        <li><a href="Sobre.html">Sobre</a></li>
-                    </ul>
-                </nav>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="planos.html">Planos</a></li>
+                    <li><a href="carteira.html">Carteira</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="Sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
             </div>
         </header>
 
         <main>
             <form>
                 <label for="nomesobrenome">Nome e sobrenome</label>
-                <input type="text" id="nomesobrenome" class="input-padrao">
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
 
                 <label for="email">Email</label>
-                <input type="text" id="email" class="input-padrao">
+                <input type="email" id="email" class="input-padrao" required>
 
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone" class="input-padrao">
+                <input type="tel" id="telefone" class="input-padrao" required>
 
                 <label for="mensagem">Mensagem</label>
-                <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
                 <input type="submit" value="Enviar formulário">
             </form>
