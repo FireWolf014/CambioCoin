@@ -1,0 +1,203 @@
+header{
+    background:#0C0B07;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 10px;
+}
+
+nav li{ 
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    color:#CCCCCC;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.slogan{
+    color:#FFFFFF;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    top: 110px;
+    left: 520px;
+}
+
+.caixa {
+    width: 940px;
+    height: 8px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.divContaAbertaSucesso{
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    height: 120px;
+    width: 30%;
+    background-color: #F2CB57;
+    color: #000000;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding: 15px;
+}
+
+#divDeposito{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    height: 50px;
+    width: 30%;
+    background-color: #F2CB57;
+    color: #000000;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;  
+}
+
+#depositeagora{
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    left: 240px;   
+}
+
+.escolher-moeda{
+    position: absolute;
+    top: 230px;
+    right: 250px;
+    height: 85px;
+    width: 38%;
+    background-color: #F2CB57;
+    color: #000000;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+
+#selectMoedas{
+    position: relative;
+    padding: 2px;
+    margin: 5px;
+}
+
+#saida{
+    position: relative;
+    top: 12px;
+}
+
+.escolher-quantidade{
+    position: absolute;
+    top: 365px;
+    right: 250px;
+    height: 50px;
+    width: 38%;
+    background-color: #F2CB57;
+    color: #000000;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+
+#quant{
+    position: relative;
+    margin-top: 3px;
+
+}
+
+#botao{
+    position: relative;
+  
+}
+
+#resumo{
+    position: absolute;
+    top: 460px;
+    right: 250px;
+    height: 40px;
+    width: 38%;
+    background-color: #F2CB57;
+    color: #000000;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+
+#confirmarcompra{
+    position: absolute;
+    top: 465px;
+    right: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+#comprafinalizada{
+    position: absolute;
+    top: 550px;
+    right: 250px;
+    height: 35px;
+    width: 38%;
+    background-color: #F2CB57;
+    color: #000000;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;  
+}
+
+#refresh{
+    position: absolute;
+    top: 500px;
+    right: 135px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.rodapé{
+    background-color: #000000;
+    color: #FFFFFF;
+    position: absolute;
+    top: 700px;
+    height: 60px;
+    width: 100%;
+    padding-top: 25px;
+    text-align: center;
+    left: 0px;
+}
