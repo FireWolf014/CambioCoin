@@ -5,8 +5,8 @@ function Enviar() {
     if(nome.value == "admin" && senha.value == "admin")
     {
         //window.location.href = "saldoconta.html";
-        alert("Login ou senha válidos");
-        window.location.href = "saldoconta.html";
+        alert("Login e senha válidos");
+        window.location.href = "carteira.html";
     }
     else
     {
