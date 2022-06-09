@@ -10,6 +10,7 @@
 
 - [@Leonardo Machado de Siqueira](https://github.com/FireWolf014)
 - [@Matheus Tenório da Silva](https://github.com/matheust28)
+- [@Adriana Vilanova dos Santos]()
 
 
 ## Sobre o Projeto
